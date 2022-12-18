@@ -16,7 +16,7 @@ function App() {
     return (
         <div>
             <Header />
-            notes.map();
+            {notes.map(createNotes)}
             <Footer />
         </div>
         
