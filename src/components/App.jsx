@@ -7,6 +7,7 @@ import notes from '../notes';
 
 function createNotes(noteItem) {
     return <Note
+        key={noteItem.key}
         title={noteItem.title}
         content={noteItem.content}
      />;
